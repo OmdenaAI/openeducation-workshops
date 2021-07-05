@@ -1,9 +1,14 @@
 # Streamlit Workshop code for Omdena's Learning Session
+
+## Speaker Details
+
+- [Victor Accette](https://www.linkedin.com/in/victor-accete/), Undergraduate Student Researcher
+
 ## Live on July 1st 2021
 All the code for the Streamlit workshop for Omdena. Please be aware that some things are intentionally simplified because this is the code used for the Workshop. 
 
 ## Data
-For this workshop I used the famous [Titanic Dataset](https://web.stanford.edu/class/archive/cs/cs109/cs109.1166/problem12.html) to reduce the amount of preprocessing and focus on Streamlit features. The file is the [titanic.csv](https://github.com/victoraccete/omdena_streamlit_workshop/blob/c9330fd2c4a8b62a07d21a35386a421497c159dc/titanic.csv) file within the folder. 
+For this workshop I used the famous [Titanic Dataset](https://web.stanford.edu/class/archive/cs/cs109/cs109.1166/problem12.html) to reduce the amount of preprocessing and focus on Streamlit features. The file is the [titanic.csv](titanic.csv) file within the folder. 
 
 ## Relevant links
 - Streamlit website: https://streamlit.io
@@ -25,11 +30,10 @@ For this workshop I used the famous [Titanic Dataset](https://web.stanford.edu/c
 I used Python 3.7. Streamlit currently requires Python 3.6-3.8. 
 
 ## ML Model
-The [.joblib file]() was generated using joblib and the code in [this notebook](https://github.com/victoraccete/omdena_streamlit_workshop/blob/c9330fd2c4a8b62a07d21a35386a421497c159dc/Very_simple_titanic_ML_model.ipynb). 
+The [.joblib file]() was generated using joblib and the code in [this notebook](Very_simple_titanic_ML_model.ipynb). 
 
 ## Hosting on Streamlit Share
-Obs: locally the code was running fine, but in order to work on Streamlit Share I also had to change the return of this function:
-https://github.com/victoraccete/omdena_streamlit_workshop/blob/c9330fd2c4a8b62a07d21a35386a421497c159dc/app.py#L53-L56
+Obs: locally the code was running fine, but in order to work on Streamlit Share I also had to change the return of this [function](https://github.com/OmdenaAI/openeducation-workshops/blob/c7c1ae4fce136623c4a50bb5113042fd2bf88f50/streamlit/app.py#L53)
 
 The [requirements.txt](requirements.txt) file is necessary for streamlit share.  
 
