@@ -31,6 +31,6 @@ The [.joblib file]() was generated using joblib and the code in [this notebook](
 Obs: locally the code was running fine, but in order to work on Streamlit Share I also had to change the return of this function:
 https://github.com/victoraccete/omdena_streamlit_workshop/blob/c9330fd2c4a8b62a07d21a35386a421497c159dc/app.py#L53-L56
 
-The [requirements.txt]() file is necessary for streamlit share.  
+The [requirements.txt](requirements.txt) file is necessary for streamlit share.  
 
-[This is the link]() to access this app on Streamlit Share. 
+[This is the link](rf.joblib) to access this app on Streamlit Share. 
